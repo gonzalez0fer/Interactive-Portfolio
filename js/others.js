@@ -9,3 +9,6 @@ window.onload = function(){
 /*mario parallax*/
 $('.nube-mario-1').parallax({ speed: 0.2, axis: 'x' });
 $('.nube-mario-2').parallax({ speed: 0.5, axis: 'x' });
+
+
+/*VOLCANO*/
