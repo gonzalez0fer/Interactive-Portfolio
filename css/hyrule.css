@@ -1,0 +1,217 @@
+/*AREA ZELDA*/
+
+.zelda-a{
+  width:1740px;
+  height: 100%;
+  z-index: 20;
+  position: relative;
+  background:#4e6ff4;
+  background: linear-gradient(#4e6ff4, #c5d1ff);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float: left;
+  margin-right: 30px;
+  -webkit-animation: sky_background 50s ease-out infinite;
+  -moz-animation: sky_background 50s ease-out infinite;
+  -o-animation: sky_background 50s ease-out infinite;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+
+.zelda-a-b{
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.zelda-b{
+
+  background:black;
+  background: linear-gradient(black, #810000, black);
+  opacity: 0.3;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float: left;
+  margin-right: 30px;
+  -webkit-animation: sky_background 50s ease-out infinite;
+  -moz-animation: sky_background 50s ease-out infinite;
+  -o-animation: sky_background 50s ease-out infinite;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+
+
+}
+
+
+.zelda-floor{
+  background:url(../img/grass2-min.png);
+  padding:0px;
+  height:320px;
+  width:1740px;
+  position: absolute;
+  bottom: 0px;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  z-index:24;
+}
+
+
+.clouds_one_termina {
+  background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_one 250s linear infinite;
+  -moz-animation: cloud_one 250s linear infinite;
+  -o-animation: cloud_one 250s linear infinite;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+}
+
+.clouds_one_termina_b {
+  background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_one 40s linear infinite;
+  -moz-animation: cloud_one 40s linear infinite;
+  -o-animation: cloud_one 40s linear infinite;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+.clouds_two_termina {
+  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_two 190s linear infinite;
+  -moz-animation: cloud_two 190s linear infinite;
+  -o-animation: cloud_two 190s linear infinite;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+
+}
+
+.clouds_two_termina_b {
+  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_two 25s linear infinite;
+  -moz-animation: cloud_two 25s linear infinite;
+  -o-animation: cloud_two 25s linear infinite;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+.moon-a{
+  background: url("../img/moon-min.png") no-repeat;
+  background-size: 200px;
+  width: 200px;
+  height: 200px;
+  left: 80%;
+  top: 5%;
+  position: relative;
+  z-index: 2;
+}
+
+.death-mountain{
+  background: url("../img/volcano.png") no-repeat;
+  background-size: 900px;
+  width: 100%;
+  height: 100%;
+  left:-15%;
+  top: 45%;
+  position: absolute;
+  z-index: 1;
+}
+
+.temple{
+  background: url("../img/templetime.png") no-repeat;
+  background-size: 500px;
+  width: 100%;
+  height: 100%;
+  left:70%;
+  top: 40%;
+  position: absolute;
+  z-index: 3;
+}
+
+#fire{
+	width:100%;
+	height:100%;
+  position: absolute;
+  background-size: 100%;
+	top: -400px;
+	left: -845px;
+	margin: auto;
+  overflow:hidden;
+}
+
+.flame {
+  width:57px;
+  height:80px;
+  position: absolute;
+  overflow:hidden;
+  background: url("http://creativeocean.com/dev/_images/flame3.png") no-repeat;
+  background-size: 100% 100%;
+}
+.moon-b{
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.moon-crash{
+  background-size: 700px;
+  position: relative;
+  width: 700px;
+  height: 700px;
+  left: 50%;
+  top: 20%;
+  z-index: 2;
+}

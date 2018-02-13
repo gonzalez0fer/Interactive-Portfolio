@@ -1,0 +1,227 @@
+/*AREA SOUL REAVER*/
+
+.soulreaver{
+  width:1740px;
+  z-index: 21;
+  position: relative;
+  background-size:30px;
+  height: 100%;
+  background:transparent;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float: left;
+  margin-right: 30px;
+
+}
+
+
+.aura{
+  width:1740px;
+  height: 100%;
+  position: relative;
+  z-index: 210;
+  background: radial-gradient(rgba(0, 182, 255,0.4),rgba(0, 63, 255, 0.3), rgba(128, 5, 246,0.3));
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  opacity: 1;
+
+}
+
+.dungeon{
+  background:url(../img/dungeon.png);
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  bottom: 50px;;
+  z-index:20;
+}
+
+.soulreaver-floor {
+  background:url(../img/floor2.jpg);
+  padding:0px;
+  height:50px;
+  width:1740px;
+  position: absolute;
+  bottom: 0px;
+  z-index:20;
+}
+
+
+.candle {
+  position: absolute;
+  top: 59%;
+  left: 13%;
+  width: 1px;
+  height: 6px;
+  background: black;
+  z-index: 30;
+  -webkit-animation: candleBob 15s ease-in-out infinite;
+          animation: candleBob 15s ease-in-out infinite;
+}
+.candle:before {
+  content: "";
+  position: absolute;
+  z-index: 30;
+  top: 3px;
+  left: -8px;
+  width: 16px;
+  height: 92px;
+  background: black;
+  border-radius: 50% / 4px;
+  -webkit-box-shadow: 0 12px 24px 3px rgba(0, 0, 0, 0.15), 0 -86px 0 0 rgba(255, 255, 255, 0.2) inset, 0 1px 0 0 rgba(255, 238, 221, 0.6) inset, 0 30px 17px 0 rgba(255, 238, 221, 0.3) inset;
+          box-shadow: 0 12px 24px 3px rgba(0, 0, 0, 0.15), 0 -86px 0 0 rgba(255, 255, 255, 0.2) inset, 0 1px 0 0 rgba(255, 238, 221, 0.6) inset, 0 30px 17px 0 rgba(255, 238, 221, 0.3) inset;
+}
+.candle:after {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 4px);
+  left: -3px;
+  width: 8px;
+  height: 16px;
+  border-radius: 100%;
+  -webkit-animation: candleFlicker 6s linear infinite, candleShadow 1s linear infinite;
+          animation: candleFlicker 6s linear infinite, candleShadow 1s linear infinite;
+  -webkit-animation-delay: inherit;
+          animation-delay: inherit;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+  background-color: #0df;
+  background-image: radial-gradient(circle at 4px 16px, yellow, red);
+  /*background-image: radial-gradient(circle at 4px 16px, #fff, #0df);*/
+  -webkit-filter: blur(2px) contrast(1.5);
+          filter: blur(2px) contrast(1.5);
+}
+.candle_two {
+  left:22.65%;
+  top: 15%;
+  -webkit-animation-delay: -3.3s;
+          animation-delay: -3.3s;
+}
+.candle_three {
+  left: 86.5%;
+  -webkit-animation-delay: -6.6s;
+          animation-delay: -6.6s;
+}
+
+.candle_four {
+  left: 77%;
+  top: 15%;
+  -webkit-animation-delay: -6.6s;
+          animation-delay: -6.6s;
+}
+@-webkit-keyframes candleFlicker {
+  0%, 100% {
+    -webkit-transform: rotate(8deg) scaleX(1) scaleY(1);
+            transform: rotate(8deg) scaleX(1) scaleY(1);
+  }
+  12.5% {
+    -webkit-transform: rotate(4deg) scaleX(0.5) scaleY(0.8);
+            transform: rotate(4deg) scaleX(0.5) scaleY(0.8);
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scaleX(1.1) scaleY(1);
+            transform: rotate(0deg) scaleX(1.1) scaleY(1);
+  }
+  37.5% {
+    -webkit-transform: rotate(-4deg) scaleX(0.5) scaleY(0.8);
+            transform: rotate(-4deg) scaleX(0.5) scaleY(0.8);
+  }
+  50% {
+    -webkit-transform: rotate(-8deg) scaleX(0.9) scaleY(1.05);
+            transform: rotate(-8deg) scaleX(0.9) scaleY(1.05);
+  }
+}
+
+@keyframes candleFlicker {
+  0%, 100% {
+    -webkit-transform: rotate(8deg) scaleX(1) scaleY(1);
+            transform: rotate(8deg) scaleX(1) scaleY(1);
+  }
+  12.5% {
+    -webkit-transform: rotate(4deg) scaleX(0.5) scaleY(0.8);
+            transform: rotate(4deg) scaleX(0.5) scaleY(0.8);
+  }
+  25% {
+    -webkit-transform: rotate(0deg) scaleX(1.1) scaleY(1);
+            transform: rotate(0deg) scaleX(1.1) scaleY(1);
+  }
+  37.5% {
+    -webkit-transform: rotate(-4deg) scaleX(0.5) scaleY(0.8);
+            transform: rotate(-4deg) scaleX(0.5) scaleY(0.8);
+  }
+  50% {
+    -webkit-transform: rotate(-8deg) scaleX(0.9) scaleY(1.05);
+            transform: rotate(-8deg) scaleX(0.9) scaleY(1.05);
+  }
+}
+@-webkit-keyframes candleShadow {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 221, 255, 0);
+            box-shadow: 0 0 0 0 rgba(0, 221, 255, 0);
+  }
+  30% {
+    /*-webkit-box-shadow: 0 -3px 0 2px rgba(0, 221, 255, 0.6);
+            box-shadow: 0 -3px 0 2px rgba(0, 221, 255, 0.6);*/
+
+    -webkit-box-shadow: 0 -3px 0 2px rgba(255, 16, 0, 0.6);
+            box-shadow: 0 -3px 0 2px rgba(255, 16, 0, 0.6);
+  }
+  100% {
+    -webkit-box-shadow: 0 -20px 0 -6px rgba(0, 221, 255, 0.2);
+            box-shadow: 0 -20px 0 -6px rgba(0, 221, 255, 0.2);
+  }
+}
+@keyframes candleShadow {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 221, 255, 0);
+            box-shadow: 0 0 0 0 rgba(0, 221, 255, 0);
+  }
+  30% {
+    /*-webkit-box-shadow: 0 -3px 0 2px rgba(0, 221, 255, 0.6);
+            box-shadow: 0 -3px 0 2px rgba(0, 221, 255, 0.6);*/
+      -webkit-box-shadow: 0 -3px 0 2px rgba(255, 16, 0, 0.6);
+              box-shadow: 0 -3px 0 2px rgba(255, 16, 0, 0.6);
+  }
+  100% {
+    -webkit-box-shadow: 0 -20px 0 -6px rgba(0, 221, 255, 0.2);
+            box-shadow: 0 -20px 0 -6px rgba(0, 221, 255, 0.2);
+  }
+}
+@-webkit-keyframes candleBob {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+  }
+}
+@keyframes candleBob {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+  }
+}
+
+.raziel1{
+  max-height: 130px;
+  left: 10%;
+  bottom: 29px;
+  position: absolute;
+  z-index: 30;
+  -webkit-filter: brightness(60%); /* Safari */
+  filter: brightness(60%);
+}

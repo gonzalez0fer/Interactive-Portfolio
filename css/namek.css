@@ -1,0 +1,86 @@
+/*AREA DRAGON BALL*/
+.dbnamek{
+  width:1740px;
+  height: 100%;
+  background:#309c22;
+  background: linear-gradient(#309c22, #cee690, white);
+  overflow: hidden;
+  float: left;
+  -webkit-animation: sky_background 50s ease-out infinite;
+  -moz-animation: sky_background 50s ease-out infinite;
+  -o-animation: sky_background 50s ease-out infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+
+}
+
+.dbfloor{
+  background:url(../img/namek2-min.png);
+  position: absolute;
+  overflow:
+  left: 0;
+  bottom: 0;
+  height: 500px;
+  width: 300%;
+  z-index: 1;
+  -webkit-animation: cloud_one 50s linear infinite;
+  -moz-animation: cloud_one 50s linear infinite;
+  -o-animation: cloud_one 50s linear infinite;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+}
+
+.clouds_two-namek {
+  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  position:  absolute ;
+  overflow: inherit;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  z-index: 1;
+  -webkit-animation: cloud_two 190s linear infinite;
+  -moz-animation: cloud_two 190s linear infinite;
+  -o-animation: cloud_two 190s linear infinite;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0)
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+
+}
+
+.kidgoku{
+  max-width: 500px;
+  min-width: 300px;
+  width: 200px;
+  left: 10%;
+  top: 15%;
+  position: absolute;
+  z-index: 3;
+  overflow-y: hidden;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+@-moz-keyframes cloud_two {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}
