@@ -6,8 +6,6 @@ $("#button").click(function() {
   /*window.setTimeout(nubes2,2000);*/
 });
 
-
-
 $("#button2").on('click', function() {
   var aura = $('.aura');
   var raziel = $('.raziel1');
@@ -31,7 +29,7 @@ $("#button2").on('click', function() {
       'z-index': '209',
       'opacity': '1',
     });
-    
+
   }
   else //We know the opacity is not 0 lets make it 0.
   {
@@ -50,5 +48,25 @@ $("#button2").on('click', function() {
       'z-index': '209',
       'opacity': '0',
     });
+  }
+});
+
+
+
+$("#button3").on('click', function() {
+  var fire= $('#fire');
+  // register is not visible lets make it visible.
+  if(fire.css('opacity') === '0')
+  {
+    fire.css({
+      'opacity': '1',
+    });
+  }
+  else //We know the opacity is not 0 lets make it 0.
+  {
+    fire.css({
+      'opacity': '0',
+    });
+
   }
 });
