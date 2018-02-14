@@ -45,8 +45,19 @@
   z-index: 211;
   -webkit-filter: brightness(60%); /* Safari */
   filter: brightness(60%);
+  opacity: 1;
 }
 
+.raziel2{
+  max-height: 130px;
+  left: 11%;
+  bottom: 29px;
+  position: absolute;
+  z-index: 211;
+  -webkit-filter: brightness(60%); /* Safari */
+  filter: brightness(60%);
+  opacity: 0;
+}
 .espectral{
   max-height: 130px;
   display: block;

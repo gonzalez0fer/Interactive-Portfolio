@@ -11,6 +11,7 @@ $("#button").click(function() {
 $("#button2").on('click', function() {
   var aura = $('.aura');
   var raziel = $('.raziel1');
+  var raziel2 = $('.raziel2');
   var vela = $('.candle');
   // register is not visible lets make it visible.
   if(aura.css('opacity') === '0')
@@ -24,7 +25,13 @@ $("#button2").on('click', function() {
     raziel.css({
       'z-index': '209',
       'filter': 'brightness(160%)',
+      'opacity': '0',
     });
+    raziel2.css({
+      'z-index': '209',
+      'opacity': '1',
+    });
+    
   }
   else //We know the opacity is not 0 lets make it 0.
   {
@@ -36,7 +43,12 @@ $("#button2").on('click', function() {
     });
     raziel.css({
       'filter': 'brightness(60%)',
+      'opacity': '1',
     });
 
+    raziel2.css({
+      'z-index': '209',
+      'opacity': '0',
+    });
   }
 });
