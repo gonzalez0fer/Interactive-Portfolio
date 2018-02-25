@@ -1,6 +1,7 @@
 /* Galaxy S5 Portrait */
 @media only screen
-and (device-height:640px)
+and (min-width: 360px) and (min-height:640px)
+and (max-width: 360px) and (max-height:640px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait){
 
@@ -10,22 +11,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-    #loader > img {
-      width:340px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /* Galaxy S5 landscape */
 @media only screen
-and (device-height:360px)
-
+and (min-width: 640px) and (min-height:360px)
+and (max-width: 640px) and (max-height:360px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape){
 
@@ -35,21 +26,12 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-    #loader > img {
-      width:340px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /* Nexus 5X Portrait default*/
 @media only screen
-and (device-height:732px)
+and (min-width: 412px) and (min-height:732px)
+and (max-width: 412px) and (max-height:732px)
 and (-webkit-device-pixel-ratio: 2.625)
 and (orientation: portrait){
 
@@ -59,21 +41,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-    #loader > img {
-      width:440px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /* Nexus 5X landscape default*/
 @media only screen
-and (device-height:412px)
+and (min-width: 732px) and (min-height:412px)
+and (max-width: 732px) and (max-height:412px)
 and (-webkit-device-pixel-ratio: 2.625)
 and (orientation: landscape){
 
@@ -83,22 +56,12 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-    #loader > img {
-      width:440px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
-
 
 /*Nexus 6P portrait*/
 @media only screen
-and (device-height:732px)
+and (min-width: 412px) and (min-height:732px)
+and (max-width: 412px) and (max-height:732px)
 and (-webkit-device-pixel-ratio: 3.5)
 and (orientation: portrait){
 
@@ -108,22 +71,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:440px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /*Nexus 6P landscape*/
 @media only screen
-and (device-height:412px)
+and (min-width: 732px) and (min-height:412px)
+and (max-width: 732px) and (max-height:412px)
 and (-webkit-device-pixel-ratio: 3.5)
 and (orientation: landscape){
 
@@ -133,22 +86,13 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:440px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
+
 
 /*iphone 7 portrait*/
 @media only screen
-and (device-height:667px)
+and (min-width: 375px) and (min-height:667px)
+and (max-width: 375px) and (max-height:667px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait){
 
@@ -158,22 +102,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:440px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /*iphone 7 landscape*/
 @media only screen
-and (device-height:375px)
+and (min-width: 667px) and (min-height:375px)
+and (max-width: 667px) and (max-height:375px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape){
 
@@ -183,22 +117,12 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:440px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /*iphone 7+, 8 y 8+ portrait*/
 @media only screen
-and (device-height:736px)
+and (min-width: 414px) and (min-height:736px)
+and (max-width: 414px) and (max-height:736px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait){
 
@@ -208,22 +132,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:500px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /*iphone 7+, 8 y 8+ landscape*/
 @media only screen
-and (device-height:414px)
+and (min-width: 736px) and (min-height:414px)
+and (max-width: 736px) and (max-height:414px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape){
 
@@ -233,23 +147,12 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:500px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
-
 
 /*iphone X portrait*/
 @media only screen
-and (device-height:812px)
+and (min-width: 375px) and (min-height:812px)
+and (max-width: 375px) and (max-height:812px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait){
 
@@ -259,22 +162,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:540px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /*iphone X landscape*/
 @media only screen
-and (device-height:375px)
+and (min-width: 812px) and (min-height:375px)
+and (max-width: 812px) and (max-height:375px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape){
 
@@ -284,47 +177,28 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:540px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
+
 
 /*ipad portrait*/
 @media only screen
-and (device-height:1024px)
+and (min-width: 768px) and (min-height:1024px)
+and (max-width: 768px) and (max-height:1024px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait){
 
     .container{
       width: 8820px;
-      height: 4100px;
+      height: 8800px;
       overflow-x: hidden;
       overflow-y: hidden;
-    }
-
-    #loader > img {
-      width:640px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
     }
 }
 
 /*ipad landscape*/
 @media only screen
-and (device-height:768px)
+and (min-width: 1024px) and (min-height:768px)
+and (max-width: 1024px) and (max-height:768px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape){
 
@@ -334,22 +208,13 @@ and (orientation: landscape){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:640px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
+
 
 /*ipad pro portrait*/
 @media only screen
-and (device-height:1366px)
+and (min-width: 1024px) and (min-height:1366px)
+and (max-width: 1024px) and (max-height:1366px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait){
 
@@ -359,22 +224,12 @@ and (orientation: portrait){
       overflow-x: hidden;
       overflow-y: hidden;
     }
-
-    #loader > img {
-      width:640px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
 }
 
 /*ipad pro landscape*/
 @media only screen
-and (device-height:1024px)
+and (min-width: 1366px) and (min-height:1024px)
+and (max-width: 1366px) and (max-height:1024px)
 and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape){
 
@@ -383,16 +238,5 @@ and (orientation: landscape){
       height: 4070px;
       overflow-x: hidden;
       overflow-y: hidden;
-    }
-
-    #loader > img {
-      width:640px; /* you can use % */
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
     }
 }
