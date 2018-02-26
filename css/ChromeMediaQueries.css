@@ -1,0 +1,452 @@
+/* Galaxy S5 Portrait */
+@media only screen
+and (device-height:640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 2535px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    #loader > img {
+      width:340px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    .mario-floor {
+      background:url(../img/floor-min.png)repeat;
+      background-size:90px;
+      padding:0px;
+      height:90px;
+      width:1740px;
+      position: absolute;
+      bottom: 0px;
+      z-index:15;
+    }
+
+    .portada img {
+    	max-width: 1200px;
+    	min-width: 300px;
+      width: 1200px;
+      left: 10%;
+      top: 15%;
+      position: absolute;
+      z-index: 3;
+      overflow-y: hidden;
+
+    }
+
+    .planta {
+      max-height: 530px;
+      height: 430px;
+      left: 60%;
+      bottom: 29px;
+      position: absolute;
+      z-index: 10;
+    }
+    .coinblock {
+      max-height: 10vh;
+      height: 10vh;
+      left: 20%;
+      bottom: 370px;
+      position: absolute;
+      z-index: 10;
+    }
+    .coinblock2,
+    .coinblock3,
+    .brick,
+    .brick2,
+    .brick3{
+      display: none;
+    }
+
+    .m1{width: 160px; position: absolute; bottom: 1600px; z-index: 30; left: 20%; cursor: pointer; opacity: 1;}
+    .m2{width: 160px; position: absolute; bottom: 1600px; z-index: 30; left: 30%; cursor: pointer; opacity: 1;}
+    .m3{width: 160px; position: absolute; bottom: 1600px; z-index: 30; left: 40%; cursor: pointer; opacity: 1;}
+    .m4{width: 160px; position: absolute; bottom: 1600px; z-index: 30; left: 50%; cursor: pointer; opacity: 1;}
+    .m5{width: 160px; position: absolute; bottom: 1600px; z-index: 30; left: 60%; cursor: pointer; opacity: 1;}
+
+}
+
+/* Galaxy S5 landscape */
+@media only screen
+and (device-height:360px)
+
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 1435px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    #loader > img {
+      width:340px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/* Nexus 5X Portrait default*/
+@media only screen
+and (device-height:732px)
+and (-webkit-device-pixel-ratio: 2.625)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 2635px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    #loader > img {
+      width:440px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/* Nexus 5X landscape default*/
+@media only screen
+and (device-height:412px)
+and (-webkit-device-pixel-ratio: 2.625)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 1535px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    #loader > img {
+      width:440px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+
+/*Nexus 6P portrait*/
+@media only screen
+and (device-height:732px)
+and (-webkit-device-pixel-ratio: 3.5)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 2905px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:440px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*Nexus 6P landscape*/
+@media only screen
+and (device-height:412px)
+and (-webkit-device-pixel-ratio: 3.5)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 1630px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:440px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*iphone 7 portrait*/
+@media only screen
+and (device-height:667px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 2655px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:440px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*iphone 7 landscape*/
+@media only screen
+and (device-height:375px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 1500px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:440px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*iphone 7+, 8 y 8+ portrait*/
+@media only screen
+and (device-height:736px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 2920px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:500px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*iphone 7+, 8 y 8+ landscape*/
+@media only screen
+and (device-height:414px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 1650px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:500px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+
+/*iphone X portrait*/
+@media only screen
+and (device-height:812px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 3240px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:540px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*iphone X landscape*/
+@media only screen
+and (device-height:375px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 1500px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:540px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*ipad portrait*/
+@media only screen
+and (device-height:1024px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 4100px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:640px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*ipad landscape*/
+@media only screen
+and (device-height:768px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 3070px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:640px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*ipad pro portrait*/
+@media only screen
+and (device-height:1366px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait){
+
+    .container{
+      width: 8820px;
+      height: 5450px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:640px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}
+
+/*ipad pro landscape*/
+@media only screen
+and (device-height:1024px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape){
+
+    .container{
+      width: 8820px;
+      height: 4070px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    #loader > img {
+      width:640px; /* you can use % */
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+}

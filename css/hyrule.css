@@ -66,11 +66,13 @@
 
 
 .clouds_one_termina {
-  background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
+  background: url("../img/cloud1-min.png");
   position: absolute;
   z-index: -1;
   left: 0;
   top: 0;
+  padding: 0;
+  margin: 0;
   height: 100%;
   width: 300%;
   -webkit-animation: cloud_one 250s linear infinite;
@@ -85,7 +87,7 @@
 }
 
 .clouds_one_termina_b {
-  background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
+  background: url("../img/cloud1-min.png");
   position: absolute;
   z-index: -1;
   left: 0;
@@ -106,11 +108,13 @@
 }
 
 .clouds_two_termina {
-  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  background: url("../img/cloud2-min.png");
   position: absolute;
   z-index: -1;
   left: 0;
   top: 0;
+  padding: 0;
+  margin: 0;
   height: 100%;
   width: 300%;
   -webkit-animation: cloud_two 190s linear infinite;
@@ -126,7 +130,7 @@
 }
 
 .clouds_two_termina_b {
-  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  background: url("../img/cloud2-min.png");
   position: absolute;
   z-index: -1;
   left: 0;
@@ -158,7 +162,7 @@
 }
 
 .death-mountain{
-  background: url("../img/volcano.png") no-repeat;
+  background: url("../img/volcano-min.png") no-repeat;
   background-size: 900px;
   width: 100%;
   height: 100%;

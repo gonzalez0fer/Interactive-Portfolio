@@ -7,23 +7,40 @@
     <link rel="stylesheet" href="css/reaver.css">
     <link rel="stylesheet" href="css/hyrule.css">
     <link rel="stylesheet" href="css/namek.css">
-    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="css/ChromeMediaQueries.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
   <body>
+
+
+    <header>
+    <div id="logo"></div>
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li><a href= "#mario" >Seccion</a></li>
+                <li><a href="#raziel">Seccion</a></li>
+                <li><a href="#triforce">Seccion</a></li>
+                <li><a href="#goku">Seccion</a></li>
+                <li><a href="#pikachu">Seccion</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
     <div id="loader"><img src="img/loader-min.gif"></div>
     <div class="container">
 
-      <div class="mariobros">
+      <div id="mario" class="mariobros">
         <div class="nube-mario-1"></div>
         <div class="nube-mario-2"></div>
-        <div class="portada"><img src="img/3DNOMBRE.png"></div>
+        <div class="portada"><img src="img/3DNOMBRE-min.png"></div>
         <div class="mario-floor"></div>
         <img class="planta" src="img/plant mario.gif">
         <img class="coinblock" src="img/coinblock.gif">
-        <img class="brick" src="img/brick.png">
-        <img class="brick2" src="img/brick.png">
-        <img class="brick3" src="img/brick.png">
+        <img class="brick" src="img/brick-min.png">
+        <img class="brick2" src="img/brick-min.png">
+        <img class="brick3" src="img/brick-min.png">
         <img class="coinblock2" src="img/coinblock.gif">
         <img class="coinblock3" src="img/coinblock.gif">
         <img id="m1" onclick="desaparecer(this.id);" class="m1" alt="moneda" src="img/coin.gif">
@@ -35,7 +52,7 @@
 
       </div>
 
-      <div class="soulreaver">
+      <div id="raziel" class="soulreaver">
         <div class="dungeon"></div>
         <div id="particles-js" class="aura aura-b"></div>
         <div class="soulreaver-floor"></div>
@@ -54,7 +71,7 @@
 
       </div>
 
-      <div class="zelda-a zelda-a-b">
+      <div id="triforce" class="zelda-a zelda-a-b">
         <div class="clouds_one_termina zelda-a-b"></div>
         <div class="clouds_two_termina zelda-a-b"></div>
         <div class="clouds_three zelda-a-b"></div>
@@ -68,13 +85,13 @@
 
       </div>
 
-      <div class="dbnamek">
+      <div id="goku" class="dbnamek">
         <div class="clouds_two-namek"></div>
         <div class="dbfloor"></div>
         <div class="kidgoku"><img src="img/kid goku.gif"></div>
       </div>
 
-      <div class="pokemon">
+      <div id="pikachu" class="pokemon">
         <div class="clouds_one-poke"></div>
         <div class="clouds_one"></div>
         <div class="clouds_two"></div>
@@ -88,6 +105,7 @@
 
     <script src="js/jquery-2.1.0.min.js" type='text/javascript'></script>
     <script src="js/particles.js" type='text/javascript'></script>
+    <script src="js/scroll.js" type='text/javascript'></script>
     <script src="js/app.js" type='text/javascript'></script>
     <script src="js/monedas.js" type='text/javascript'></script>
     <script src='js/jquery.parallax.js' type='text/javascript'></script>

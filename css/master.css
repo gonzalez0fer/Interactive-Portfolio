@@ -11,6 +11,75 @@ html, body {
     -moz-box-sizing: border-box;
   }
 
+  header {
+    position: fixed;
+    z-index: 1888;
+    width: 100%;
+    text-align: center;
+    top: -9.5em;
+    transition: all 0.4s; }
+    header:hover {
+      top: -6em; }
+    header:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      height: 100%;
+      width: 50%;
+      background: #000;
+      -webkit-transform: skew(0deg, 5deg);
+      -moz-transform: skew(0deg, 5deg);
+      -ms-transform: skew(0deg, 5deg);
+      transform: skew(0deg, 5deg);
+      left: 0; }
+    header:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      height: 100%;
+      width: 50%;
+      background: #000;
+      -webkit-transform: skew(0deg, -5deg);
+      -moz-transform: skew(0deg, -5deg);
+      -ms-transform: skew(0deg, -5deg);
+      transform: skew(0deg, -5deg);
+      right: 0.5px; }
+    header nav ul {
+      margin: 0;
+      color: gray;
+      font-family: 'manteka';
+      font-size: 1.3em;
+      font-weight: normal;
+      margin-bottom: 1em; }
+      header nav ul li {
+        display: inline-block;
+        padding: 0 10px; }
+        header nav ul li a {
+          color: gray;
+          text-decoration: none;
+        transition: all 0.6s;
+        }
+        header nav ul li:hover a {
+          text-decoration: none;
+          color: white; }
+    header #logo {
+      background-color: #020003;
+      position: relative;
+      width: 15%;
+      text-align: center;
+      min-width: 100px;
+      max-width: 100%;
+      left: 43%;
+      height: 100px;
+      top: 140px;
+      z-index: 5;
+      border-radius: 5em 0; }
+      header #logo img {
+        margin-top: -20px;
+        width: 100px; }
+
 .container{
   width: 8820px;
   height: 100%;
@@ -42,6 +111,8 @@ html, body {
 .mariobros{
   width:1740px;
   height: 100%;
+  padding: 0;
+  margin: 0;
   z-index: 22;
   position: relative;
   background:#5c94fc;
@@ -52,18 +123,22 @@ html, body {
 }
 
 .nube-mario-1{
-  background-image:url(../img/bgm1.png);
+  background-image:url(../img/bgm1-min.png);
   width:1740px;
   height:100%;
+  padding: 0;
+  margin: 0;
   top: 0;
   left: 0;
   z-index:1;
 }
 
 .nube-mario-2 {
-  background-image:url(../img/bgm2.png);
+  background-image:url(../img/bgm2-min.png);
   width:1740px;
   height:100%;
+  padding: 0;
+  margin: 0;
   top: 0;
   left: 0;
   position:absolute;
@@ -72,7 +147,7 @@ html, body {
 }
 
 .mario-floor {
-  background:url(../img/floor.png)repeat;
+  background:url(../img/floor-min.png)repeat;
   background-size:30px;
   padding:0px;
   height:30px;
@@ -175,7 +250,7 @@ html, body {
 
 
 .clouds_one {
-  background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
+  background: url("../img/cloud1-min.png");
   position: absolute;
   z-index: -1;
   left: 0;
@@ -194,7 +269,7 @@ html, body {
 }
 
 .clouds_one-poke {
-  background: url(../img/pokeclouds.png);
+  background: url("../img/pokeclouds.png");
   position: absolute;
   left: 0;
   top: 0;
@@ -212,7 +287,7 @@ html, body {
 }
 
 .clouds_two {
-  background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+  background: url("../img/cloud2-min.png");
   position: absolute;
   z-index: -1;
   left: 0;
